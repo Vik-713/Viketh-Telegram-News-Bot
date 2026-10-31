@@ -2,8 +2,8 @@ name: Daily Tech News Digest
 
 on:
   schedule:
-    # 02:30 UTC corresponds to 08:00 IST daily
-    - cron: '30 2 * * *'
+    - cron: '*/15 7-8 * * *'
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
